@@ -10,30 +10,108 @@
 </head>
 
 <body>
-    <header class="container text-center">
+    <header class="container text-center main-container">
         <h1>Eu sou Jotaro Kujo!</h1>
         <div class="image-container">
-            <img src="img/JotaroAnime3.webp" alt="avatar" class="image" width="200" height="250" srcset="">
-            <div class="image-shadow"></div>
+            <img src="assets/jotaro.png" alt="avatar" class="image" width="200" height="250" srcset="">
+    
         </div>
         <h2>...E paro o Tempo</h2>
+        <button onclick="tocarMusica()" class="badge bg-secondary">Iniciar abertura</button>
     </header>
-    <section class="container text-center description">
-        <p>Sou Jotaro Kujo, biólogo marinho e usuário de Stand. Não falo muito, porque palavras demais não vencem batalhas. Meu Stand, Star Platinum, é rápido, preciso e forte o suficiente para esmagar qualquer inimigo em um piscar de olhos e se precisar, eu paro o tempo. Já enfrentei a morte de frente mais de uma vez, e sigo em pé porque não luto por mim, mas por quem eu preciso proteger. 
-        </p>
-        <h4>Minhas incriveis habilidades:</h4>
+    <section class="container text-center intro">
+        <p>Sou Jotaro Kujo, biólogo marinho e usuário de Stand. Não falo muito, porque palavras demais não vencem batalhas. </p>
+        <p>Meu Stand, Star Platinum, é rápido, preciso e forte o suficiente para esmagar qualquer inimigo em um piscar de olhos e se precisar, eu paro o tempo. </p>
+        <p>Já enfrentei a morte de frente mais de uma vez, e sigo em pé porque não luto por mim, mas por quem eu preciso proteger.</p>
+        
+    </section>
+    <section class="container text-center skills">
+        <h3 class="text-left my-2">Minhas incriveis habilidades:</h3>
         <div>
-            <p class="badge bg-secondary">Star Platinum</p>
-            <p class="badge bg-secondary">Ora Ora Rush</p>
-            <p class="badge bg-secondary">Time Stop</p>
-            <p class="badge bg-secondary">Enorme resistência</p>
+            <h5><span class="badge bg-secondary">Star Platinum</span></h5>
+            <h5><span class="badge bg-secondary">Ora Ora Rush</span></h5>
+            <h5><span class="badge bg-secondary">Time Stop</span></h5>
+            <h5><span class="badge bg-secondary">Enorme resistência</span></h5>
         </div>
     </section>
     <section class="container text-center description">
         <h3 class="text-left my-2">Como você pode me reconhecer na rua?</h3>
-        <p>
-           Sou um homem alto (mais ou menos1,95m), atraente e bem constituído, mesmo na adolescência. Eu tenho cabelos escuros que se misturam constantemente com o chapéu, mandíbula forte, sobrancelhas ousadas e cabelos verdes. Também tenho uma leve semelhança com meu tataravô, Jonathan Joestar, e meu avô, Joseph Joestar quando jovem.
-        </p>
+        <div class="rekognition">
+            <div>
+                <p>
+                    Sou um homem alto (mais ou menos1,95m), atraente e bem constituído, mesmo na adolescência. 
+                </p>
+                <p>  
+                    Eu tenho cabelos escuros que se misturam constantemente com o chapéu, mandíbula forte e sobrancelhas ousadas. 
+                </p>
+                <p>
+                    Também tenho uma leve semelhança com meu tataravô, Jonathan Joestar, e meu avô, Joseph Joestar quando jovem.
+                </p>
+            </div>
+            <img src="assets/jotaro1.webp" alt="avatar" class="image" width="200" height="250" srcset="">
+        </div>
+    </section> 
+    <section class="container text-center description">
+        <h3 class="text-left my-2">Onde eu atuei em Jojo Bizarre Adventure?</h3>
+         <div class="btn-internal-container">
+            <button type="button" class="btn-internal" data-bs-toggle="modal" data-bs-target="#stardustCrusaders">
+                <span>Stardust Crusaders</span>
+                <p>Parte 3</p>
+            </button>
+            <button type="button" class="btn-internal" data-bs-toggle="modal" data-bs-target="#diamondIsUnbreakable">
+                <span>Diamond is Unbreakable</span>
+                <p>Parte 4</p>
+            </button>
+            <button type="button" class="btn-internal" data-bs-toggle="modal" data-bs-target="#stoneOcean">
+                <span>Stone Ocean</span>
+                <p>Parte 6</p>
+            </button>
+        </div>
+
+  
+        <div class="modal fade" id="stardustCrusaders" tabindex="-1" aria-labelledby="Stardust Crusaders" aria-hidden="true" data-bs-theme="dark">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Stardust Crusaders</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-justify">
+                    <p>Jotaro Kujo é introduzido como um estudante japonês de 17 anos, neto de Joseph Joestar. Ele é preso no início da história após acreditar que está possuído por um espírito maligno. Na verdade, esse "espírito" é seu Stand, Star Platinum, uma manifestação de sua energia vital. Joseph e sua aliada Avdol explicam a Jotaro o que é um Stand e que ele não está amaldiçoado, mas sim despertou um poder especial.</p>
+                    <p>Jotaro logo descobre que o surgimento dos Stands na sua família está ligado ao retorno de Dio Brando, que agora ocupa o corpo de seu ancestral Jonathan Joestar. Para salvar sua mãe, Holly, cuja vida está ameaçada por um Stand incontrolável, Jotaro embarca numa jornada do Japão até o Egito junto com Joseph, Avdol, Kakyoin, Polnareff e Iggy. Durante a viagem, ele enfrenta vários usuários de Stand enviados por Dio, mostrando seu crescimento como líder e sua força incrível.</p>
+                    <p>Jotaro é calmo, sério e estrategista, e se torna um dos protagonistas mais icônicos da série. Sua luta final contra Dio é uma das batalhas mais famosas do anime e do mangá.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="diamondIsUnbreakable" tabindex="-1" aria-labelledby="Diamond is Unbreakable" aria-hidden="true" data-bs-theme="dark">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Diamond is Unbreakable</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Em Diamond is Unbreakable, Jotaro Kujo retorna já como um adulto, trabalhando como biólogo marinho. Ele viaja até a cidade de Morioh para encontrar Josuke Higashikata, o filho ilegítimo de seu avô Joseph Joestar, e alertá-lo sobre os perigos de usuários de Stand surgindo na cidade. Jotaro aparece com uma postura ainda mais calma e estratégica do que em sua juventude, vestindo um uniforme branco de marinheiro. Durante a história, ele age como uma figura de mentor para Josuke e seus amigos, guiando-os na missão de encontrar e deter ameaças em Morioh, especialmente relacionadas ao arco e flecha que concede Stands. Embora ele fique mais nos bastidores, Jotaro entra em ação nos momentos críticos, usando seu Stand, Star Platinum, com habilidade ainda maior — inclusive refinando o seu poder de parar o tempo. Na batalha final contra Yoshikage Kira, Jotaro é essencial para derrotar o vilão, mostrando que, mesmo mais maduro, sua força e inteligência continuam impressionantes.
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="stoneOcean" tabindex="-1" aria-labelledby="Stone Ocean" aria-hidden="true" data-bs-theme="dark">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Stone Ocean</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Em Stone Ocean, Jotaro Kujo retorna já como um pai determinado a proteger sua filha, Jolyne Cujoh. A história começa com Jolyne sendo presa injustamente, e Jotaro tentando salvá-la de uma armadilha orquestrada por Enrico Pucci, um padre aliado aos ideais de Dio. Durante a tentativa de resgate, Jotaro é atacado por Whitesnake, o Stand de Pucci, que rouba tanto seu Stand quanto suas memórias, deixando-o em coma. A recuperação de Jotaro se torna a principal motivação de Jolyne ao longo da parte, enquanto ela enfrenta diversos inimigos dentro da prisão. Mais adiante, Jotaro desperta e luta ao lado de sua filha na batalha final contra Pucci, utilizando novamente o poder de parar o tempo. No entanto, durante o confronto, ele sacrifica sua vida para proteger Jolyne, morrendo de forma heroica. A presença de Jotaro em Stone Ocean é marcada por um tom muito mais trágico, mostrando seu amor de pai e encerrando sua trajetória de forma intensa e memorável.
+                </div>
+            </div>
+            </div>
+        </div>
     </section>
     <section class="container text-center description">
         <h3 class="text-left my-2">Mais algumas coisas interesantes...</h3>
@@ -98,7 +176,14 @@
             </tbody>
         </table>
     </section>
+    <audio id="musica" src="assets/song.mp3"></audio>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function tocarMusica() {
+          var audio = document.getElementById('musica');
+          audio.play();
+        }
+    </script>
 </body>
 
 </html>
